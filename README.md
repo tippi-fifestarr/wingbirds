@@ -1,3 +1,37 @@
+# Tippi's Portfolio & Meeting Scheduler
+
+A Next.js-based personal portfolio site featuring an interactive Yin-Yang component and Web3-enabled meeting scheduler built on Aptos blockchain.
+
+## Key Features
+
+### Interactive Yin-Yang Experience
+- Dual-sided interactive visualization representing technical and creative pursuits
+- Hover effects reveal detailed information about each domain
+- Smooth animations and transitions
+- Responsive design that works across devices
+
+### Web3 Meeting Scheduler
+- Schedule and pay for meetings using Aptos blockchain
+- Calendar integration with available time slots
+- Secure payment processing (1 APT per meeting)
+- Real-time balance tracking
+- Wallet integration with Petra/Martian
+
+### Business Card Component
+- Professional presentation of contact information
+- Skill tags with hover effects
+- Language toggle (English/Chinese)
+- Social media links
+- Responsive design with hover animations
+
+## Tech Stack
+
+- **Frontend**: Next.js 14, React, TypeScript
+- **Styling**: Tailwind CSS
+- **Blockchain**: Aptos Network, @aptos-labs/ts-sdk
+- **UI Components**: Custom calendar, buttons, cards
+- **Fonts**: Playfair Display, Inter, Noto Sans SC
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
