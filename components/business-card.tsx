@@ -3,6 +3,7 @@
 import { Mail, Twitter, Github } from 'lucide-react'
 import { cn } from "@/lib/utils"
 import { useTheme } from "next-themes"
+import { MeetingScheduler } from './meeting-scheduler'
 
 const skills = [
   "Full Stack",
@@ -14,7 +15,8 @@ const skills = [
 
 export function BusinessCard() {
   const { theme, setTheme } = useTheme()
-
+  const myAptosAddress = "0xTippiFifestarr"
+  
   return (
     <div className="min-h-[calc(100vh-3.5rem)] flex items-center justify-center p-4">
       <div className="relative w-96 aspect-[1.618/1] p-6 rounded-lg shadow-lg transition-all duration-300 hover:scale-105 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
@@ -66,6 +68,7 @@ export function BusinessCard() {
           </div>
         </div>
       </div>
+      <MeetingScheduler recipientAddress={myAptosAddress} />
     </div>
   )
 }
